@@ -1,6 +1,6 @@
 # ionic-examen1
 
-CLonar e iniciar el proyecto:
+Clonar e iniciar el proyecto:
 ```bash
 ionic serve
 ```
