@@ -24,9 +24,9 @@
                 </ion-row>
                 <ion-row>
                     <ion-col>
-                        <ion-input v-model="nombre" type="text" :clear-input="true" color="tertiary" fill="outline" label="Nombre" :counter="true"></ion-input>
-                        <ion-input v-model="carnet" type="text" :clear-input="true" color="tertiary" fill="outline" label="Carnet" :counter="true"></ion-input>
-                        <ion-input v-model="grupo" type="text" :clear-input="true" color="tertiary" fill="outline" label="Grupo" :counter="true"></ion-input>      
+                        <ion-input v-model="nombre" type="text" :clear-input="true" color="tertiary" fill="outline" placeholder="Fernando Javier Romero Turcios" label="Nombre" :counter="true"></ion-input>
+                        <ion-input v-model="carnet" type="text" :clear-input="true" color="tertiary" fill="outline" placeholder="174722" label="Carnet" :counter="true"></ion-input>
+                        <ion-input v-model="grupo" type="text" :clear-input="true" color="tertiary" fill="outline" placeholder="TDSV222A" label="Grupo" :counter="true"></ion-input>      
                         <h2 class="title2">Notas Practicas</h2>
                         <ion-input v-model="p_grade1" type="number" min="0" step="1" :clear-input="true" color="tertiary" fill="outline" label="Examen 1" :counter="true"></ion-input>
                         <ion-input v-model="p_grade2" type="number" min="0" step="1" :clear-input="true" color="tertiary" fill="outline" label="Examen 2" :counter="true"></ion-input>
